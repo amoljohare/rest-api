@@ -13,7 +13,7 @@ public class RestApiApplication {
 
 	@GetMapping(value = "/rest")
 	public String testApi() {
-		return "Working REST API";
+		return "Working REST API 2";
 	}
 
 	public static void main(String[] args) {
